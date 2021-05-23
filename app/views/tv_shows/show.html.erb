@@ -1,0 +1,21 @@
+<div class="banner text-center" style="background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(<%= @tv_show.backdrop_path %>);">
+	<%# <div class="container"> %>
+    <div class="banner-text">
+      <h1>F<span class="red"><small>・</small></span>R<span class="yellow"><small>・</small></span>I<span class="blue"><small>・</small></span>E<span class="red"><small>・</small></span>N<span class="yellow"><small>・</small></span>D<span class="blue"><small>・</small></span>S<span class="red"><small>・</small></span>4<span class="yellow"><small>・</small></span>L<span class="blue"><small>・</small></span>I<span class="red"><small>・</small></span>F<span class="yellow"><small>・</small></span>E</h1>
+      <p>A fan site for the best sitcom ever created</p>
+    </div>
+	<%# </div> %>
+</div>
+<div class="container my-5">
+  <div class="d-flex justify-content-space-around">
+    <div class="overview-img">
+      <img src="<%= @tv_show.poster_path %>" alt="Friends tv show poster">
+    </div>
+    <div class="overview-text ml-4">
+      <h2>About the series:</h2>
+      <p>Name: <%= @tv_show.name %></p>
+      <p>Name: <%= @tv_show.name %></p>
+
+    </div>
+  </div>
+</div>

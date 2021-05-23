@@ -1,6 +1,8 @@
 <div class="navbar navbar-expand-sm navbar-dark navbar-lewagon fixed-top">
-  <%= link_to lists_path, class: "navbar-brand" do %>
-    <i class="fas fa-film"></i>
+  <%= link_to "#", class: "navbar-brand" do %>
+    <%# <p class="logo">F<span class="red"><small>・</small></span>4<span class="yellow"><small>・</small></span>L</p> %>
+    <p class="logo"><span class="red">F</span><span class="yellow">4</span><span class="blue">L</span></p>
+    <%# <p class="logo">F<span class="red"><small>・</small></span>R<span class="yellow"><small>・</small></span>I<span class="blue"><small>・</small></span>E<span class="red"><small>・</small></span>N<span class="yellow"><small>・</small></span>D<span class="blue"><small>・</small></span>S<span class="red"><small>・</small></span>4<span class="yellow"><small>・</small></span>L<span class="blue"><small>・</small></span>I<span class="red"><small>・</small></span>F<span class="yellow"><small>・</small></span>E</p> %>
   <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,13 +16,19 @@
         <%= link_to "Home", "#", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to "WatchLists", '/lists#all-lists', class: "nav-link" %>
+        <%= link_to "ABOUT THE SERIES", "#", class: "nav-link" %>
       </li>
+      <p class="red mb-0">・</p>
+      <li class="nav-item">
+        <%= link_to "EPISODES", "#", class: "nav-link" %>
+      </li>
+      <p class="yellow mb-0">・</p>
       <li class="nav-item">
         <%= image_tag "https://kitt.lewagon.com/placeholder/users/emzys", class: "avatar dropdown-toggle border border-white m-2", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
       </li>
+      <p class="blue mb-0">・</p>
       <li class="nav-item">
-        <%= link_to "Sign out", "#", class: "nav-link" %>
+        <%= link_to "SIGN OUT", "#", class: "nav-link" %>
       </li>
       <li>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
