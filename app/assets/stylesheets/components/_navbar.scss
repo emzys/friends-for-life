@@ -1,6 +1,37 @@
+.navbar {
+  padding: 0 8px;
+  font-family: "Covered By Your Grace", "cursive";
+
+  // .show {
+  //   background-color: rgba(0,0,0,.8);
+  // }
+  a {
+    text-shadow: 1px 1px 3px rgba(0,0,0, 20%);
+  }
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  opacity: 1;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.nav-item {
+  // font-weight: bolder;
+  font-size: 24px;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+}
+
+.navbar-lewagon-dark {
+  background-color: rgba(0,0,0,.8);
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +40,17 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  padding: 0 8px;
+  margin: 0;
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.navbar-toggler {
+  margin: 0 8px;
 }

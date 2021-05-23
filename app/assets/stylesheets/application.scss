@@ -10,4 +10,26 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/banner";
+@import "tv_shows";
 @import "pages/index";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.red {
+    color: #F65F40;
+    transition: color .3s;
+}
+
+.yellow {
+  color: #F6EC2E;
+  transition: color .3s;
+}
+
+.blue {
+  color: #52BAF2;
+  transition: color .3s;
+}
